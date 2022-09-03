@@ -11,6 +11,14 @@
 	margin: 0;
 	padding: 0;
 }
+ul,ol{
+	list-style: none;
+}
+img{
+	vertical-align: middle;
+	width: 100%
+	height: auto;
+}
 body{
 	background: #EEEEEE;
 }
@@ -256,7 +264,7 @@ h4, h5, h6{
 	border: 1px solid #DDDDDD;
 	border-radius: 3px;
 }
-.aside form input.value{
+.aside form input::placeholder{
 	color: #DDDDDD;
 }
 .aside table button{
